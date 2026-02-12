@@ -1,0 +1,61 @@
+.liste-articles{
+    
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    height: 0%;
+    width: 50%;
+}
+
+.article{
+    flex-basis: 30%;
+    padding: 30px;
+    margin:20%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+#demo{ 
+    display: block;
+    width: 30%;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 0.6em;
+    margin: 4% auto 0 auto ;
+    border-radius: 15px;
+
+}
+
+section p  {
+    color:rgb(227, 17, 160);
+    margin-bottom: 100px;
+    
+}
+  
+  .texte {
+    font-size: 24px;
+  }
+  
+  .plus-texte {
+    display: none;
+  }
+  
+  .texte.voirplus .plus-texte {
+    display: inline;
+    height: auto;
+  }
+  .texte .fin {
+    display: none;
+  }
+  
+  .bouton-lire-plus {
+    /*https://developer.mozilla.org/fr/docs/Web/CSS/cursor*/
+    cursor: pointer;
+    padding: 3px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 15px 60px;
+  }

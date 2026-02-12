@@ -1,0 +1,71 @@
+.menu a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*menu hamburger*/
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 2em;
+  color: #fff;
+  position: relative;
+  top: 0.2em;
+  margin-left: 2vh;
+}
+
+/* icone hamburger*/
+.bar1,
+.bar2,
+.bar3 {
+  background-color: #fff;
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar-toggle {
+    .menu {
+      justify-content: space-between;
+    }
+  }
+}
+
+/*cellulaire*/
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+  /*cacher le menu*/
+  .menu {
+    display: none;
+  }
+
+  /*barre de menu*/
+  .navbar {
+    display: block;
+    position: relative;
+  }
+
+  /* classe utilisée dans le js pour ouvrir le menu hamburger*/
+  .active {
+    display: flex;
+    flex-direction: column;
+  }
+}

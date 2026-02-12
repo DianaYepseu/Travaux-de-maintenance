@@ -1,0 +1,60 @@
+body {
+    background-color: deepskyblue;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.vignette-barbie {
+    background-color: white;
+    height: 205px;
+    width: 205px;
+    border: 1px black solid;
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.vignette-barbie:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.vignette-barbie img {
+    height: 250px;
+}
+
+#zone-affichage {
+    background-color: white;
+    display: flex;
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: solid 3px #333333;
+    border-radius: 30px;
+}
+
+.detail-barbie {
+    display: none;
+    width: 700px;
+    height: 900px;
+    border: solid 1px black;
+}
+
+.barbie-nom {
+    font-size: 30px;
+
+}
+
+.barbie-description {
+    width: 350px;
+}
+
+.barbie-images {
+    width: 400px;
+  
+}

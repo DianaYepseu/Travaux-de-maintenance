@@ -1,0 +1,95 @@
+@import url("general.css");
+
+P{
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+h1{
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    width: 60%;
+    
+}
+th,
+td{
+    border: 3px solid black;
+    padding: 15px;
+}
+
+th{
+    /*background-color:pink;*/
+    color: white;
+    line-height: 4em;
+}
+caption{
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-weight:bold ;
+}
+.impair{
+    background-color:#555
+}
+.section{
+    height: 100vh ;
+    width: 100%;
+    position:relative;
+  }
+  
+  .s1 {
+    background: url("images/china3.jpg");
+    background-size: cover;
+    background-position: 0 0 ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+  }
+  .s2 {
+    background: url("images/R.png");
+    background-size: cover;
+    background-position: 0 0 ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .s3 {
+    background: url("images/R1.png");
+    background-size: cover;
+    background-position: 0 0 ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .s4 {
+    background: url("images/R2.png");
+    background-size: cover;
+    background-position: 0 0 ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .blocTxt {
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600%;
+    height:600px;
+    border-radius: 5px;
+  }
+  .sousTitreTxt {
+    font-size: 45px;
+    text-align: center;
+  }
+  .txt {
+    font-size: 18px;
+    padding: 10px 40px;
+  }
+  

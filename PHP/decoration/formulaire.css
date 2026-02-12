@@ -1,0 +1,92 @@
+body{
+    background-color: violet;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+    font-size: 3em;
+}
+
+form{
+    background-color: #fff;
+    color:black;
+    font-weight: bold;
+    border: 4px solid aquamarine;
+    border-radius: 25px;
+}
+
+.container1{
+    margin:0 auto;
+    width: 40%;
+}
+.container2{
+    margin:0 auto;
+    width: 33%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width:60%;
+    height: 30px;
+    border: 10px;
+    border-color: black;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="submit"]:hover {
+
+    background-color: blueviolet ;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus
+input[type="password"]{
+    outline: none;
+}
+
+select{
+    width: 50%;
+    height: 30px;
+    border: 0;
+    background-color: pink;
+    border-radius: 25px;
+}
+.input-container{
+    text-align: center;
+    margin: 1em;
+}
+.nom{
+    
+    background: url("images/profile.png");
+    background-repeat: no-repeat;
+    padding-left:40px ;
+    background-position: 10px;
+}
+
+.email{
+    
+    background: url("images/email.png");
+    background-repeat: no-repeat;
+    padding-left:40px ;
+    background-position: 10px;}
+
+.pwd{
+    
+        background: url("images/padlock.png");
+        background-repeat: no-repeat;
+        padding-left:40px ;
+        background-position: 10px;}
+    
+
+input[type="submit"]{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: aquamarine;
+    border:0;
+}

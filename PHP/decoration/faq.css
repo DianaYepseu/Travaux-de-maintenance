@@ -1,0 +1,40 @@
+    .accordeonConteneur {
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    border-radius: 50px;
+  }
+  .accordeonItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordeonItemHeader {
+    cursor: pointer;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    background:aquamarine;
+    border-radius: 3px;
+    border-radius: 50px;
+  }
+  
+  .fermer .accordeonItemContenu {
+    height: 0px;
+    transform: scaleY(0);
+  }
+  .ouvert .accordeonItemContenu {
+    padding: 20px;
+    transform: scaleY(1);
+ }
+ .ouvert .accordeonItemHeader {
+    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background:violet;
+    
+}
+  

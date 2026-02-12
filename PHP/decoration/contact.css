@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.aide-contextuelle.label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+    line-height: 24px;
+    display: none;
+   
+}
+
+.tooltip {
+    --balloon-color:aqua;
+    --balloon-font-size: 20px;
+    
+}
+    
+    
